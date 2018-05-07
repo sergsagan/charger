@@ -1,0 +1,134 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.empty {
+    height: 230px;
+}
+
+h1, h2, h3, h4, h5, h5 {
+    margin: 0;
+}
+
+ul > li {
+    list-style: none;
+    display: inline-block;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    outline: medium none;
+}
+
+/*a {
+    @include links(orange, blue, yellow, teal);
+}*/
+
+
+input {
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    outline: none;
+    border: none 0;
+}
+
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.pull-right {
+    float: right !important;
+}
+.transform-x-y {
+    position: absolute;
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.transY {
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 50%;
+    position: absolute;
+}
+.transX {
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+}

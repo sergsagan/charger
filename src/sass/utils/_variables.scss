@@ -1,16 +1,17 @@
 //Color
 
-$base-color: rgb(255, 255, 255);
+$base-color: rgba(255, 255, 255, 0.99);
 
-$stack-color: rgb(131, 166, 228);
+$stack-color: rgb(227, 160, 98);
 
 
 
 //Font-Family
 
-$OpenSans: 'Open Sans', sans-serif;
-
-
+$Playfair: 'Playfair Display', serif;
+$PNL: 'Proxima Nova Light', sans-serif;
+$PNR: 'Proxima Nova Regular', sans-serif;
+$PNB: 'Proxima Nova Bold', sans-serif;
 //breakpoints
 
 $breakpoints: (

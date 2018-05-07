@@ -1,14 +1,35 @@
 extends base
 
 block title
-    title Index Page
+    title Charger
 
 append css
 
 block content
-    include include/header
-    + addSectionContent('Section 1', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem incidunt totam veniam. Ad aspernatur, atque dolor ducimus ipsum, laboriosam laborum libero mollitia neque nesciunt, perspiciatis praesentium repellendus reprehenderit suscipit temporibus!')
+    .wrapper
+        .main-screen
+            include include/header
+            .slider.fade
+                .slide_item
+                    h1.heading We’re
+                        span Charger
+                    span.description  One of the most powerful and recognized brand names in the custom automotive industry.
+                    a.more(href="#") read More
+                .slide_item
+                    h1.heading We have
+                        span franchises
+                    span.description  We have worked with some of the largest brands in the world, including Fortune 500 companies.
+                    a.more(href="#") read More
+                .slide_item
+                    h1.heading Join
+                        span our team
+                    span.description  One of the most powerful and recognized brand names in the custom automotive industry.
+                    a.more(href="#") read More
+            .social
+                a.icon(href="#") Facebook
+                a.icon(href="#") Twitter
+                a.icon(href="#") Youtube
 
 
 
-
+    include include/footer

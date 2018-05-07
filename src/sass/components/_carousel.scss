@@ -1,0 +1,68 @@
+.slider{
+  width: 100%;
+  max-width: 550px;
+  margin:  0 auto 0!important;
+
+  .slick-slide {
+    cursor: pointer;
+    margin: 0 auto;
+
+    &:focus, a {
+      outline: none;
+    }
+  }
+  .icon-left{
+    display: inline-block;
+    position: absolute;
+    width: 17px;
+    height: 32px;
+    left: -100%;
+    top: 30%;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: $base-color;
+    text-decoration: none;
+
+    &:before{
+      content: '';
+      display: inline-block;
+      position: absolute;
+      top: 7px;
+      right: -90px;
+      width: 47px;
+      height: 2px;
+      background-color: $stack-color;
+    }
+
+    &:hover{
+      color: $stack-color;
+    }
+  }
+  .icon-right{
+    display: inline-block;
+    position: absolute;
+    width: 17px;
+    height: 32px;
+    right: -100%;
+    top: 30%;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: $base-color;
+    text-decoration: none;
+
+    &:before{
+      content: '';
+      display: inline-block;
+      position: absolute;
+      top: 7px;
+      left: -60px;
+      width: 47px;
+      height: 2px;
+      background-color: $stack-color;
+    }
+
+    &:hover{
+      color: $stack-color;
+    }
+  }
+}

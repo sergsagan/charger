@@ -1,0 +1,22 @@
+.header_nav{
+  ul{
+    li{
+      margin: 0 20px;
+
+      a{
+        text-decoration: none;
+        color: $base-color;
+        font-family: $PNR;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.35px;
+
+        &:hover{
+          color: $stack-color;
+        }
+      }
+    }
+  }
+}
+

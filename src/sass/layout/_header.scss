@@ -1,0 +1,60 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 170px;
+
+  &_logo, &_nav, &_menu{
+    display: flex;
+  }
+  .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+
+    &_icon, &_text{
+      display: inline-block;
+    }
+    &_icon{
+      margin-right: 10px;
+    }
+    &_text{
+      color: $base-color;
+      font-family: $Playfair;
+      font-size: 21px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+
+      span{
+        display: block;
+        color: $base-color;
+        font-family: $PNR;
+        font-size: 9px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+      }
+    }
+
+  }
+
+
+  &_menu{
+    cursor: pointer;
+    .menu_icon{
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .menu_text{
+      display: inline-block;
+      color: $base-color;
+      font-family: $PNR;
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.35px;
+    }
+  }
+}

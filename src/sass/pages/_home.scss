@@ -1,0 +1,116 @@
+.main-screen{
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  margin:  0 auto;
+  height: auto;
+  background: rgb(0, 0, 0);
+  z-index: 1;
+  padding: 40px;
+
+  &:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../img/image.png');
+    -webkit-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+  }
+  .heading{
+    color: $stack-color;
+    font-family: $Playfair;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: 3px;
+    margin: 0 0 60px;
+
+    span{
+      display: block;
+    }
+  }
+  .description{
+    width: 100%;
+    max-width: 375px;
+    display: block;
+    color: $base-color;
+    font-family: $PNR;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    margin-bottom: 60px;
+  }
+  .more{
+    display: block;
+    color: $stack-color;
+    font-family: $PNR;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    position: relative;
+    @include transition(all .25s);
+    margin-bottom: 230px;
+
+    &:before{
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: -7px;
+      left: 0;
+      width: 92px;
+      height: 1px;
+      background-color: $stack-color;
+    }
+    &:hover{
+      color: $base-color;
+      &:before{
+        display: none;
+      }
+    }
+  }
+
+  .social{
+    a{
+      display: inline-block;
+      color: $base-color;
+      font-family: $PNR;
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 0.35px;
+      text-decoration: none;
+      margin:  0 10px;
+      position: relative;
+
+      &:before{
+        content: '';
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: -10px;
+        width: 1px;
+        height: 14px;
+        background-color: $base-color;
+        transform: rotate(15deg);
+      }
+      &:hover{
+        color: $stack-color;
+
+        &:before{
+          background-color: $stack-color;
+        }
+      }
+      &:last-child{
+        &:before{
+          display: none;
+        }
+      }
+    }
+  }
+}

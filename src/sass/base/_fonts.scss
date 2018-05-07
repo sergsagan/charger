@@ -7,3 +7,22 @@
   font-style: normal;
   font-weight: normal;
 }
+
+@font-face {
+  font-family: "ProximaNovaBold";
+  src: url("../../fonts/ProximaNovaBold/ProximaNova-Bold.eot");
+  src: url("../../fonts/ProximaNovaBold/ProximaNova-Bold.eot?#iefix")format("embedded-opentype"),
+  url("../../fonts/ProximaNovaBold/ProximaNova-Bold.woff") format("woff"),
+  url("../../fonts/ProximaNovaBold/ProximaNova-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "ProximaNovaRegular";
+  src: url("../../fonts/ProximaNovaRegular/ProximaNova-Regular.eot");
+  src: url("../../fonts/ProximaNovaRegular/ProximaNova-Regular.eot?#iefix")format("embedded-opentype"),
+  url("../../fonts/ProximaNovaRegular/ProximaNova-Regular.woff") format("woff"),
+  url("../../fonts/ProximaNovaRegular/ProximaNova-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}

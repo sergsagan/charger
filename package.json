@@ -20,7 +20,7 @@
     "gulp-cache": "^0.4.5",
     "gulp-clean-css": "^3.0.3",
     "gulp-concat": "^2.6.1",
-    "gulp-connect": "^5.0.0",
+    "gulp-connect": "^5.7.0",
     "gulp-css-globbing": "0.1.9",
     "gulp-filter": "^5.0.0",
     "gulp-if": "^2.0.2",
